@@ -1,0 +1,50 @@
+.section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.heading {
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.1;
+}
+
+.div-block {
+  display: flex;
+}
+
+.div-block-2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-block {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .text-block {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    font-size: 47px;
+  }
+
+  .text-block {
+    font-size: 22px;
+  }
+}
+
+
